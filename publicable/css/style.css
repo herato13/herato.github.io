@@ -1,0 +1,162 @@
+@charset "utf-8";
+*{ margin: 0%;
+   border: 0%;
+   padding: 0%;
+box-sizing: border-box; }
+
+@font-face {
+    font-family:renaultTEEMed;
+    src: url(/publicable/fots/RenaultTEEMed\ Regular.ttf);
+}
+
+html{
+        font-size: 18px;
+}
+/* Tipografia cargada en la carpeta publicable */
+h1, header nav,body nav,h2, h3, h4,h5, footer {
+    font-family:renaultTEEMed;
+}
+/* body */
+body {
+    font-size: 18px;
+    line-height: 1.75rem;
+    background-color: #999;
+}
+h1{
+        font-size: 2.88rem;
+        font-weight: bold; 
+        float: left;
+        margin-top: 52px;
+}
+#bandera {
+    width: 42px;
+    margin-left: 20px;
+}
+
+/* nombre del piloto */
+.nombrepiloto{
+    display: inline-block;
+}
+.numerojo {
+    color: #ed2939;
+    margin-right: 5px;
+}
+.numeroazul{ color: blue;
+    margin-right: 5px;}
+h2{
+    font-size: 2.3rem;
+    margin-bottom: 40px;
+    font-weight: bold;    
+}
+h3{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #666;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h4,h5{
+    font-size: 1.05rem;
+    border-bottom: 1px solid #ccc;
+    font-weight: bold;
+    color: #666;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    }
+section p{margin-bottom: 20px;}
+
+li{ list-style: none;}
+
+a {text-decoration: none;
+color: #999}
+ 
+a:hover, .anclaroja, .anclazul{
+    color: #f2dd46;
+}
+
+img, video, iframe{
+width: 100%;
+}
+nav#menuprincipal { background-color: #000;
+    padding: 8px 8%;
+    clear: both; 
+}
+nav#menuprincipal li{display: inline-block;
+color: white;
+padding-right: 2.5%;}
+nav#menuprincipal a{ color: white;
+}
+nav#menuprincipal a:hover, nav#menuprincipal a.Resaltado {color: #f2dd46;}
+nav#linkgris a:hover { color: #000;}
+#logo{
+    width: 60px;
+    float:left ;
+    margin: 28px 1.5% 22px 7.5%;  
+}
+main{background-color: white;
+max-width: 1366px;
+margin: 0% auto;}
+figcaption {font-size: .75;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.anclaroja, .anclazul, .anclamarilla{
+    display: inline-block;
+    background-color: #ed2939;
+    color: white;
+    padding: 3px 10px 2px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.anclazul{
+    background-color: blue;
+  
+}
+.anclamarilla{ 
+    background-color: #f2dd46;
+  
+}
+#hero-image {border-bottom: #f2dd46 20px solid;}
+/* section */
+section{
+    float: left;
+    width: 75%;
+    padding: 50px 3.5% 50px 8%;
+}
+/* aside */
+
+aside{float: left;
+    width: 25%;
+    padding: 117px 8% 50px 0;
+}
+aside nav {
+    margin-bottom: 20px;
+}
+.aside-pub{
+    border: .5px solid #999;
+}
+/* footer */
+
+footer{
+    clear: both;
+    background-color: #000;
+    padding: 15px 8%;
+    color: white;
+}
+.afooter{ color: white;}
+.contenedovideoyoutube {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */    
+    height: 0;
+    margin-bottom: 10px;
+    /* 75% si el video es 4:3 */
+  }
+  .contenedovideoyoutube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  

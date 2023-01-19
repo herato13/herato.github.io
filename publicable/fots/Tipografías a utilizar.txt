@@ -1,0 +1,19 @@
+
+Vamos a utilizar dos:
+
+- Renault TEE Med Regular
+- Scope One
+
+A una de ellas la vamos a utilizar directamente desde Google Fonts: la Scope One.
+Mientras que la tipografía de Renault, que yo les entrego junto a este archivo (Renault TEEMed Regular.ttf), deberá ser convertida a formato .WOFF y .WOFF2.
+
+Para eso tendrán que recurrir a los siguientes sitios:
+
+• Tipografías on line (para usar Scope One):
+
+GoogleFonts.com
+
+• Conversor de tipografías (para convertir Renault TEEMed Regular):
+
+FontSquirrel.com
+
